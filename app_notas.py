@@ -38,8 +38,9 @@ def guardar_nota4():
 def guardar_nota5():
     global nota_guardada5
     nota_guardada5=ventana_texto.get(0.0, tk.END)
-    
-    
+
+
+
 def cargar_nota1():
     caja_texto_cargada.delete('1.0','end')
     caja_texto_cargada.insert(tk.END,nota_guardada1)
@@ -95,6 +96,7 @@ def ventana_guardados():
 global ventana_notas_guardadas
 boton_cargar=ttk.Button(ventana,text='Cargar nota',command=ventana_guardados)
 boton_cargar.grid(column=0,row=4,columnspan=9)
+
 
 
 
