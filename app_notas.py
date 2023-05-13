@@ -1,10 +1,7 @@
-'''Aplicación de notas: Desarrolla una aplicación de notas donde los usuarios puedan crear, editar y guardar notas en una
-interfaz gráfica. Puedes incluir funciones como resaltado de texto, cambio de fuente y tamaño, y 
-capacidad de guardar y cargar notas.'''
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
-ventana=tk.Tk()
+ventana=tk.Tk()  
 ventana.geometry('440x500')
 ventana_texto=tk.Text(ventana,height=5)
 
